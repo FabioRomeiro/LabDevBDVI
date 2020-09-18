@@ -1,3 +1,5 @@
+package corretor.model;
+
 import java.util.List;
 
 public interface CorretorInterface {

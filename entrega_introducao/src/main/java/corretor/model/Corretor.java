@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package corretor.model;
+
 import java.util.List;
 
 public class Corretor implements CorretorInterface {

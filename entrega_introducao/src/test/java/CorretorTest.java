@@ -1,3 +1,4 @@
+import corretor.model.Corretor;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
