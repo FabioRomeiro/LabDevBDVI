@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CorretorTest {
 
-    private CorretorInterface corretor;
+    private Corretor corretor = new Corretor();
 
     @Test
     public void deveCorrigirProvaSemTodasAsQuestoesRespondidas() {
