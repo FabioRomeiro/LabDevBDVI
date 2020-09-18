@@ -1,10 +1,10 @@
 # Gradle files
-/gradle/
+**/*/gradle/
 .gradle
-/build/
+**/*/build/
 
 # Intellij
-/.idea
+**/*/.idea
 
 # Compiled class file
 *.class
