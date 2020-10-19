@@ -11,4 +11,4 @@
 - Os arquivos de testes ficam no diretório: 
 `entregas_testes_funcionais/particoes_de_equivalencia/src/test/java`
 
-Link do vídeo: 
+Link do vídeo: https://youtu.be/Pd1drSPKtHc
