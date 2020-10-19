@@ -19,13 +19,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class CorretorTest {
 
-    private Corretor corretor = new Corretor();
+    private Corretor corretor = new CorretorImpl();
 
     @Test
     public void testeUsuarioComGabaritoInvalidoComDigitoVazio() {
         List<String> gabarito = Arrays.asList("C", "D", "", "A", "C", "C", "B", "A", "A", "B");
         List<String> resposta = Arrays.asList("A", "B", "A", "B");
-        Exception exception = assertThrows(CorretorException.class, () -> {
+        Exception exception = assertThrows(CorretorExceptionImpl.class, () -> {
             corretor.corrige(gabarito, resposta);
         });
 
@@ -37,7 +37,7 @@ public class CorretorTest {
     public void testeUsuarioComGabaritoInvalidoBaixo() {
         List<String> gabarito = Collections.emptyList();
         List<String> resposta = Arrays.asList("A", "B", "A", "B");
-        Exception exception = assertThrows(CorretorException.class, () -> {
+        Exception exception = assertThrows(CorretorExceptionImpl.class, () -> {
             corretor.corrige(gabarito, resposta);
         });
 
