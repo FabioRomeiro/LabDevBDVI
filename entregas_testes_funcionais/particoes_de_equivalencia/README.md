@@ -6,9 +6,9 @@
 
 ## Pastas do Projeto 
 - A classe Corretor e sua interface ficam no diretório: 
-`entrega_introducao/src/main/java/corretor`
+`entregas_testes_funcionais/particoes_de_equivalencia/src/main/java`
 
 - Os arquivos de testes ficam no diretório: 
-`entrega_introducao/src/test/java`
+`entregas_testes_funcionais/particoes_de_equivalencia/src/test/java`
 
 Link do vídeo: 
